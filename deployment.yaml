@@ -15,8 +15,8 @@ spec:
         app: nodejs
     spec:
       containers:
-        - name: devopshint
-          image: 908198849120.dkr.ecr.ap-south-1.amazonaws.com/devopshint:1.1
+        - name: devops-ecr
+          image: 321824248972.dkr.ecr.us-east-1.amazonaws.com/devops-ecr:1.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
